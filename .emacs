@@ -31,3 +31,5 @@
 (setq column-number-mode t)
 
 (setq make-backup-files nil) ; stop creating ~ files
+
+(setq-default auto-fill-function 'do-auto-fill)
