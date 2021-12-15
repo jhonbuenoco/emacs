@@ -90,3 +90,9 @@
 (setq elpy-rpc-python-command "python3")
 
 (setq elpy-rpc-virtualenv-path 'current)
+
+(require 'whitespace)
+(setq whitespace-style '(face empty lines-tail trailing))
+(global-whitespace-mode t)
+
+(setq column-number-mode t)
