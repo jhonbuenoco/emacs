@@ -1,6 +1,6 @@
 # Emacs init file for Python Development
 
-Copy the code to your .emacs file on your $HOME directory
+Copy the code to your .emacs file on your **$HOME** directory
 
 Remember first to backup your previous .emacs file.
 
