@@ -57,6 +57,8 @@
 
 (setq inhibit-startup-message t)   ;; hide the startup message
 (load-theme 'material t)           ;; load material theme
+
+(require 'linum)
 (global-linum-mode t)              ;; enable line numbers globally
 (setq linum-format "%4d \u2502 ")  ;; format line number spacing
 ;; Allow hash to be entered  
